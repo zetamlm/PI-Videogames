@@ -1,0 +1,45 @@
+.containerLanding {
+    background-image: url('https://img.freepik.com/vector-gratis/conjunto-controles-consola-dibujados-mano_23-2147569227.jpg?w=740&t=st=1673999682~exp=1674000282~hmac=aeec4b39a3582f28bdd75565844d9ac55b4d054739cc3c38adf29047c7eb7f71');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140vh;
+    margin: auto;
+    display: flex;
+    white-space: none;  
+    justify-content: center;
+    align-items: start;
+    max-width: 1280px;
+    
+}
+.tittleLanding{
+    justify-items: stretch;
+    color: rgb(10, 10, 10);
+    background-size: contain;
+    object-fit: cover;
+    margin-top: 50px;
+    text-indent: 5%;
+    display:grid;
+    position :relative;
+    top: 300px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.boxLanding {
+    background: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 25px;
+    position :relative;
+    top: 300px;
+}
+
+.boxLanding:hover{
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,236 @@
+body{
+    
+    justify-items: center;
+    color: rgb(7, 7, 7);
+    background-size: contain;
+    object-fit: fill;
+    background-attachment: fixed;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10 10 10 10;
+    /* overflow-y: scroll;
+    overflow-x: scroll; */
+}
+.header {
+    background-image: url(https://img.freepik.com/premium-vector/set-video-game-doodle_6997-1231.jpg?w=740);
+    justify-items: stretch;
+    color: rgb(119, 0, 255);
+    background-size: fill;
+    object-fit: cover;
+    margin-top: 50px;
+}
+a{
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+.sort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+    width: 900px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.sort .rating {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+}
+.sort .origin {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20%;
+}
+.sort .container-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+    padding: 10px;
+}
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+.containerCards div:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    cursor: pointer;
+}
+
+.paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.filter{
+    border-radius: 30px;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.origin select{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.origin select::-ms-expand{
+    display: none;
+}
+.origin select{
+    display: inline-block;
+	width: auto;
+	cursor: pointer;
+  	padding: 7px 10px 10px;
+  	height: 45px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background-color: rgba(172, 171, 161, 0.993);
+	color: #7b7b7b;
+	font-size: 25px;
+	color: #fff;
+	font-family: 
+	'Quicksand', sans-serif;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin: 1px;
+}
+.origin select:hover{
+    background: #000;
+}
+.rating select{
+    display: inline-block;
+	width: auto;
+	cursor: pointer;
+  	padding: 7px 10px 10px;
+  	height: auto;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background-color: rgba(172, 171, 161, 0.993);
+	color: #7b7b7b;
+	font-size: 25px;
+	color: #fff;
+	font-family: 
+	'Quicksand', sans-serif;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin: 1px;
+}
+.rating select:hover{
+    background: #000;
+}
+.rating select{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.rating select::-ms-expand{
+    display: none;
+}
+
+.container-options button{
+    display: inline-block;
+	width: auto;
+	cursor: pointer;
+  	padding: 7px 10px 10px;
+  	height: auto;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background-color: rgba(172, 171, 161, 0.993);
+	color: #7b7b7b;
+	font-size: 25px;
+	color: #fff;
+	font-family: 
+	'Quicksand', sans-serif;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin: 1px;
+}
+.container-options button:hover{
+    background: #000;
+}
+.container-options button{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.container-options button::-ms-expand{
+    display: none;
+}
+.filter select{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.filter select::-ms-expand{
+    display: none;
+}
+.filter select{
+    display: inline-block;
+	width: auto;
+	cursor: pointer;
+  	padding: 7px 10px 10px;
+  	height: auto;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background-color: rgba(172, 171, 161, 0.993);
+	color: #7b7b7b;
+	font-size: 25px;
+	color: #fff;
+	font-family: 
+	'Quicksand', sans-serif;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+    margin: 1px;
+}
+.filter select:hover{
+    background: #000;
+}
+.spinner2{
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    animation: spin 1s ease infinite;
+    border-left-color: rgb(253, 249, 2);   
+    margin-left: 50%;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
